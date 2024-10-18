@@ -6,17 +6,18 @@
 }
 /****************** /reset *************/
 
-.debug{
+*.debug{
   background-color: rgba(41, 41, 229, 0.2);
+  border: 1px solid black;
 }
 
 header{
   display: flex;
   justify-content: center;
+  
 }
 
 .container{
-  height: 50px;
   width: 80%;
 }
 
