@@ -17,6 +17,7 @@ header{
   justify-content: center;
 }
 
+
 .container{
  width: 80%;
 }
@@ -58,4 +59,13 @@ header{
 
 .txt{
   width: 40%;
+}
+
+
+.colonne{
+  width: 80%;
+  display: flex;
+  justify-content: stretch;
+  justify-content: space-between;
+
 }
