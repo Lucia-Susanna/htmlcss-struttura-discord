@@ -17,15 +17,8 @@ header{
   justify-content: center;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
- }
-
 .container{
-  width: 80%;
+ width: 80%;
 }
 
 .row{
@@ -42,13 +35,27 @@ main {
 
 .principale{
   display: flex;
-  height: 200px; /************debug************/
+  min-height: 200px; /************debug************/
+  justify-content: center;
+  align-items: center;
 }
 
-.colonna-img{
+.grigio{
+  background-color: rgb(255, 0, 0, 0.2);
+}
+
+.blocco{
+  width: 80%;
+  height: 300px; /***************debug**************/
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.img{
   width: 60%;
 }
 
-.colonna-txt{
+.txt{
   width: 40%;
 }
